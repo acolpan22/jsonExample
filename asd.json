@@ -1,0 +1,96 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": 28,
+            "address": {
+                "street": "123 Main St",
+                "city": "Springfield",
+                "state": "IL",
+                "zip": "62704"
+            },
+            "phoneNumbers": ["555-1234", "555-5678"]
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "age": 34,
+            "address": {
+                "street": "456 Elm St",
+                "city": "Greenfield",
+                "state": "CA",
+                "zip": "93927"
+            },
+            "phoneNumbers": ["555-8765", "555-4321"]
+        },
+        {
+            "id": 3,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "age": 29,
+            "address": {
+                "street": "789 Oak St",
+                "city": "Fairview",
+                "state": "KY",
+                "zip": "42221"
+            },
+            "phoneNumbers": ["555-1111", "555-2222"]
+        }
+    ],
+    "products": [
+        {
+            "id": 101,
+            "name": "Widget A",
+            "description": "A useful widget for various tasks.",
+            "price": 19.99,
+            "stock": 150
+        },
+        {
+            "id": 102,
+            "name": "Widget B",
+            "description": "An advanced widget with more features.",
+            "price": 29.99,
+            "stock": 80
+        },
+        {
+            "id": 103,
+            "name": "Gadget C",
+            "description": "A handy gadget for everyday use.",
+            "price": 9.99,
+            "stock": 200
+        }
+    ],
+    "orders": [
+        {
+            "orderId": 1001,
+            "userId": 1,
+            "products": [
+                {
+                    "productId": 101,
+                    "quantity": 2
+                },
+                {
+                    "productId": 103,
+                    "quantity": 1
+                }
+            ],
+            "total": 49.97,
+            "orderDate": "2023-07-21"
+        },
+        {
+            "orderId": 1002,
+            "userId": 2,
+            "products": [
+                {
+                    "productId": 102,
+                    "quantity": 1
+                }
+            ],
+            "total": 29.99,
+            "orderDate": "2023-07-22"
+        }
+    ]
+}
